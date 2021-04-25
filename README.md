@@ -4,7 +4,11 @@ There are two branches in this one is with normal Docker and the other is with D
 To test this on the install.
 
 prepare the env with the following commands
+
+
 curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -
+
+
 sudo yum install nodejs
 verify if it is installed by the following commands
 node -v
