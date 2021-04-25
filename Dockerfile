@@ -1,6 +1,6 @@
 # taking base image
 
-FROM node
+FROM node:lts-alpine3.13
 
 #WORKDIR is set path for app
 WORKDIR /app
